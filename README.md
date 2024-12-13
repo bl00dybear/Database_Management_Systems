@@ -32,5 +32,5 @@
 ![alt text](images/ERD.png)
 ### 3.Diagrama conceptuala
 ![alt text](images/conceptuala.png)
-### 4.
-![alt text](images/image.png)
+### 4. Implementarea Bazei de date Oracle SQL
+![alt text](images/digrama_generata.png)
