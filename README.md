@@ -1,5 +1,6 @@
 # Sisteme de Gestiune a Bazelor de Date
-
+## Proiect Final
+### Cerinte
 <br>1. Prezentați pe scurt baza de date (utilitatea ei).
 
 <br>2. Realizați diagrama entitate-relație (ERD): entitățile, relațiile și atributele trebuie definite în limba română (vezi curs SGBD, model de diagrama entitate-relație; nu se va accepta alt format).
