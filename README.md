@@ -28,4 +28,9 @@
 <br>13. Formulați în limbaj natural o problemă pe care să o rezolvați folosind un pachet care să includă tipuri de date complexe și obiecte necesare unui flux de acțiuni integrate, specifice bazei de date definite (minim 2 tipuri de date, minim 2 funcții, minim 2 proceduri).
 #
 ### 1.Prezentarea Bazei de Date
+### 2.Diagrama entitate-relație (ERD)
 ![alt text](images/ERD.png)
+### 3.Diagrama conceptuala
+![alt text](images/conceptuala.png)
+### 4.
+![alt text](images/image.png)
