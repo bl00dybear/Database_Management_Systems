@@ -53,7 +53,7 @@ minim 10 înregistrări pentru fiecare tabelă asociativă).
 ![alt text](images/digrama_generata.png)
 ### 5. Inserari relevante in tabele
 Inserarile sunt in scriptul [`inserare_date.sql`](inserare_date.sql).
-```oraclesqlplus
+```oracle
 -- Numele soferilor care au facut cele mai lungi 5 transporturi
 -- Numarul de km facuti de camioanele ce apartin aceluiasi producator
 -- Ce incasari a generat fiecare camion avand in vedere ca se factureaza 7 euro / km
