@@ -53,7 +53,7 @@ minim 10 înregistrări pentru fiecare tabelă asociativă).
 ![alt text](images/diagrama_generata.png)
 ### 5. Inserari relevante in tabele
 Inserarile sunt in scriptul [`inserare_date.sql`](inserare_date.sql).
-### 6. Date transporturi
+### 6. ITP
 #### Detinatorul unei firme de transport vrea sa analizeze datele transporturilor efectate pana in prezent. Datele care il intereseaza pe el sunt ce incasari a generat fiecare camion in parte, numarul de kilometri facuti de camioane grupate dupa branduri, pentru a sti pe viitor care brand este mai calitativ, si care au fost top 5 soferi cu cele mai lungi transporturi efectuate.
 #### Procedura
 ![alt text](images/6.1.png)
