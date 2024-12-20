@@ -66,13 +66,15 @@ begin
 --     Afisari
     dbms_output.PUT_LINE('------------> Productie per camion <-------------');
     for i in list_incasari_camion.first.. list_incasari_camion.last loop
-        dbms_output.PUT_LINE('Camionul cu numarul de inmatriculare: '||list_incasari_camion(i).nr_inmatriculare||' a produs '|| list_incasari_camion(i).incasari||' euro.');
+        dbms_output.PUT_LINE('Camionul cu numarul de inmatriculare: '||list_incasari_camion(i).nr_inmatriculare||
+                             ' a produs '|| list_incasari_camion(i).incasari||' euro.');
     end loop;
 
     dbms_output.PUT_LINE('------------> Kilometri per brand <-------------');
     for i in 1..var_nr_prod_camioane loop
         if list_km_prod.exists(upper(list_nume_prod(i))) and list_km_prod(upper(list_nume_prod(i)))!=0 then
-            dbms_output.PUT_LINE('In firma curenta, camioanele '||list_nume_prod(i)|| ' au parcurs '|| list_km_prod(upper(list_nume_prod(i)))||' kilometri.');
+            dbms_output.PUT_LINE('In firma curenta, camioanele '||list_nume_prod(i)|| ' au parcurs '||
+                                 list_km_prod(upper(list_nume_prod(i)))||' kilometri.');
         end if;
     end loop;
 

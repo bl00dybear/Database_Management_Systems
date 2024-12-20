@@ -55,5 +55,11 @@ minim 10 înregistrări pentru fiecare tabelă asociativă).
 Inserarile sunt in scriptul [`inserare_date.sql`](inserare_date.sql).
 ### 6. Boss
 #### Detinatorul unei firme de transport vrea sa analizeze datele transporturilor efectate pana in prezent. Datele care il intereseaza pe el sunt ce incasari a generat fiecare camion in parte, numarul de kilometri facuti de camioane grupate dupa branduri, pentru a sti pe viitor care brand este mai calitativ, si care au fost top 5 soferi cu cele mai lungi transporturi efectuate.
-![img.png](images/ex6.png)
+#### Procedura
+![alt text](images/6.1.png)
+![alt text](images/6.2.png)
+![alt text](images/6.3.png)
+#### Apelul procedurii stocate:
+![alt text](images/6.4.png)
+
 Procedura utilizata este aici: [`exercitiul_6.sql`](exercitiul_6.sql).
