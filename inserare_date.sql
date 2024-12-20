@@ -128,6 +128,8 @@ insert into CLIENTI (ID_CLIENT, NUME, TARA, LOCALITATE) values (seq_clienti.next
 insert into CLIENTI (ID_CLIENT, NUME, TARA, LOCALITATE) values (seq_clienti.nextval, 'Mihai Popescu', 'Spania', 'Valencia');
 insert into CLIENTI (ID_CLIENT, NUME, TARA, LOCALITATE) values (seq_clienti.nextval, 'Elisabeth Schmitz', 'Germania', 'München');
 insert into CLIENTI (ID_CLIENT, NUME, TARA, LOCALITATE) values (seq_clienti.nextval, 'Alejandro Martínez', 'România', 'Cluj-Napoca');
+insert into CLIENTI (ID_CLIENT, NUME, TARA, LOCALITATE) values (seq_clienti.nextval, 'Alejandro Martínez', 'România', 'Constanta');
+
 commit ;
 
 -- Masini de insotire
