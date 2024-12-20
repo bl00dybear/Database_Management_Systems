@@ -50,7 +50,7 @@ minim 10 înregistrări pentru fiecare tabelă asociativă).
 ### 3.Diagrama conceptuala
 ![alt text](images/conceptuala.png)
 ### 4. Implementarea Bazei de date in Oracle SQL
-![alt text](images/digrama_generata.png)
+![alt text](images/diagrama_generata.png)
 ### 5. Inserari relevante in tabele
 Inserarile sunt in scriptul [`inserare_date.sql`](inserare_date.sql).
 ### 6. Boss
