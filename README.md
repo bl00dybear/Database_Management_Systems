@@ -74,3 +74,16 @@ Procedura utilizata este aici: [`exercitiul_6.sql`](exercitiul_6.sql).
 
 ![alt text](images/7.3.png)
 Procedura utilizata este aici: [`exercitiul_7.sql`](exercitiul_7.sql).
+
+### 8. Experienta medie a soferilor
+####  Creati o procedura de tip functie careia i se da ca parametru numele unui client si se returneaza numarul mediu de curse al soferilor c au facut livrari pentru el.
+#### Procedura:
+![alt text](images/8.1.png)
+#### Apelul procedurii stocate:
+![alt text](images/9.1.png)
+![alt text](images/9.2.png)
+![alt text](images/10.1.png)
+![alt text](images/10.2.png)
+![alt text](images/11.1.png)
+![alt text](images/11.2.png)
+
