@@ -80,10 +80,16 @@ Procedura utilizata este aici: [`exercitiul_7.sql`](exercitiul_7.sql).
 #### Procedura:
 ![alt text](images/8.1.png)
 #### Apelul procedurii stocate:
+![alt text](images/8.2.png)
+### 9. Cel mai potrivit sofer
 ![alt text](images/9.1.png)
 ![alt text](images/9.2.png)
+#### Apelul procedurii stocate:
+![alt text](images/9.3.png)
+### 10. Trigger la nivel de comanda
 ![alt text](images/10.1.png)
 ![alt text](images/10.2.png)
+### 11.Trigger la nivel de linie
 ![alt text](images/11.1.png)
 ![alt text](images/11.2.png)
 
