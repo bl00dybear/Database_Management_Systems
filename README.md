@@ -62,7 +62,7 @@ Inserarile sunt in scriptul [`inserare_date.sql`](inserare_date.sql).
 #### Apelul procedurii stocate:
 ![alt text](images/6.4.png)
 
-Procedura utilizata este aici: [`exercitiul_6.sql`](exercitiul_6.sql).
+Procedura utilizata este aici: [`exercitiul_06.sql`](exercitiul_06.sql).
 
 ### 7.Revizie expirata
 #### Disponentii unei firmelor de transport au nevoie sa stie inspectia tehnica periodica (ITP) a caror camioane a expirat, pentru a le putea face programare la serice. Scrieti o procedura care sa afiseze pentru fiecare firma de transport, numarul de inmatriculare si statusul valabilitatii ITP-ului, stiind ca acesta expira la 2 ani.
@@ -73,7 +73,7 @@ Procedura utilizata este aici: [`exercitiul_6.sql`](exercitiul_6.sql).
 #### Apelul procedurii stocate:
 
 ![alt text](images/7.3.png)
-Procedura utilizata este aici: [`exercitiul_7.sql`](exercitiul_7.sql).
+Procedura utilizata este aici: [`exercitiul_07.sql`](exercitiul_07.sql).
 
 ### 8. Experienta medie a soferilor
 ####  Creati o procedura de tip functie careia i se da ca parametru numele unui client si se returneaza numarul mediu de curse al soferilor c au facut livrari pentru el.
@@ -81,13 +81,13 @@ Procedura utilizata este aici: [`exercitiul_7.sql`](exercitiul_7.sql).
 ![alt text](images/8.1.png)
 #### Apelul procedurii stocate:
 ![alt text](images/8.2.png)
-Procedura utilizata este aici: [`exercitiul_8.sql`](exercitiul_8.sql).
+Procedura utilizata este aici: [`exercitiul_08.sql`](exercitiul_08.sql).
 ### 9. Cel mai potrivit sofer
 ![alt text](images/9.1.png)
 ![alt text](images/9.2.png)
 #### Apelul procedurii stocate:
 ![alt text](images/9.3.png)
-Procedura utilizata este aici: [`exercitiul_9.sql`](exercitiul_9.sql).
+Procedura utilizata este aici: [`exercitiul_09.sql`](exercitiul_09.sql).
 ### 10. Trigger la nivel de comanda
 ![alt text](images/10.1.png)
 ![alt text](images/10.2.png)
