@@ -81,15 +81,20 @@ Procedura utilizata este aici: [`exercitiul_7.sql`](exercitiul_7.sql).
 ![alt text](images/8.1.png)
 #### Apelul procedurii stocate:
 ![alt text](images/8.2.png)
+Procedura utilizata este aici: [`exercitiul_8.sql`](exercitiul_8.sql).
 ### 9. Cel mai potrivit sofer
 ![alt text](images/9.1.png)
 ![alt text](images/9.2.png)
 #### Apelul procedurii stocate:
 ![alt text](images/9.3.png)
+Procedura utilizata este aici: [`exercitiul_9.sql`](exercitiul_9.sql).
 ### 10. Trigger la nivel de comanda
 ![alt text](images/10.1.png)
 ![alt text](images/10.2.png)
+Definitia triggerului este aici: [`exercitiul_10.sql`](exercitiul_10.sql).
 ### 11.Trigger la nivel de linie
 ![alt text](images/11.1.png)
 ![alt text](images/11.2.png)
+Definitia triggerului este aici: [`exercitiul_11.sql`](exercitiul_11.sql).
+
 
