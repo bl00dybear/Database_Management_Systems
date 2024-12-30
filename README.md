@@ -97,4 +97,8 @@ Definitia triggerului este aici: [`exercitiul_10.sql`](exercitiul_10.sql).
 ![alt text](images/11.2.png)
 Definitia triggerului este aici: [`exercitiul_11.sql`](exercitiul_11.sql).
 
+### 12. Trigger LDD
+![alt text](images/12.1.png)
+
+Definitia triggerului este aici: [`exercitiul_12.sql`](exercitiul_12.sql).
 
