@@ -91,14 +91,33 @@ Procedura utilizata este aici: [`exercitiul_09.sql`](exercitiul_09.sql).
 ### 10. Trigger la nivel de comanda
 ![alt text](images/10.1.png)
 ![alt text](images/10.2.png)
+
+#### Tabela Firma de transport inainte de declansarea triggerului:
+![alt text](images/10.3.png)
+#### Declansarea triggerului:
+![alt text](images/10.4.png)
+#### Tabela Firma de transport dupa declansarea triggerului (s-a actualizat numarul de transporturi de la firma cu ID-ul 4):
+![alt text](images/10.5.png)
+
+#### Acelasi lucru se intampla si pentru tabelele Soferi, Camioane si Masini de Insotire.
+
 Definitia triggerului este aici: [`exercitiul_10.sql`](exercitiul_10.sql).
 ### 11.Trigger la nivel de linie
 ![alt text](images/11.1.png)
 ![alt text](images/11.2.png)
+
+#### Declansarea triggerului:
+![alt text](images/11.3.png)
+![alt text](images/11.4.png)
+![alt text](images/11.5.png)
+![alt text](images/11.6.png)
+
 Definitia triggerului este aici: [`exercitiul_11.sql`](exercitiul_11.sql).
 
 ### 12. Trigger LDD
 ![alt text](images/12.1.png)
+#### Declansarea triggerului:
+![alt text](images/12.2.png)
 
 Definitia triggerului este aici: [`exercitiul_12.sql`](exercitiul_12.sql).
 
