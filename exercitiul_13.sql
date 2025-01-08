@@ -119,11 +119,7 @@ create or replace package body rezervare_transport as
 
         select tonaj into var_tonaj from marfa where id_marfa = param_id_marfa;
 
---         dbms_output.PUT_LINE('ajunge aici');
-
         var_sofer_camion := cautare_camion_sofer(var_tonaj);
-
---         dbms_output.PUT_LINE(var_sofer_camion.id_sofer);
 
         if var_sofer_camion.id_sofer != 0 and var_sofer_camion.id_camion !=0 then
             insert into transporturi (id_transport, id_camion, id_sofer, id_marfa, id_client, nr_kilometri,
@@ -134,7 +130,7 @@ create or replace package body rezervare_transport as
                     param_loc_incarcare,param_tara_descarcare,
                     param_loc_descarcare);
             commit;
-            dbms_output.PUT_LINE('Transport introdus');
+            dbms_output.PUT_LINE('Transport cu ID-ul '|| seq_transporturi.currval||' a fost introdus.');
         else
             if var_sofer_camion.id_sofer = 0 and var_sofer_camion.id_camion =0 then
                 raise err_transportator;
@@ -142,7 +138,10 @@ create or replace package body rezervare_transport as
         end if;
     exception
         when err_transportator then
-            dbms_output.PUT_LINE('Nu se gaseste un transportator potrivit pentru aceasta marfa.');
+            dbms_output.PUT_LINE('Nu se gaseste un transportator potrivit pentru marfa cu ID-ul '||
+                                 param_id_marfa||'.');
+        when others then
+            dbms_output.PUT_LINE('');
     end inserare_transport;
 
     procedure verificare_client_marfa(
@@ -154,7 +153,6 @@ create or replace package body rezervare_transport as
         err_client exception ;
         err_marfa exception ;
     begin
---         dbms_output.PUT_LINE('ajunge aici');
 
         select count(*) into var_nr_client from clienti where id_client = param_id_client;
         if var_nr_client = 0 then
@@ -166,15 +164,14 @@ create or replace package body rezervare_transport as
             raise err_marfa;
         end if;
 
---         dbms_output.PUT_LINE(var_nr_client);
 
 exception
     when err_marfa then
-        dbms_output.PUT_LINE('Mai intai introduceti in baza de date marfa cu ID-ul '|| param_id_marfa);
-        raise;
+        dbms_output.PUT_LINE('Mai intai introduceti in baza de date marfa cu ID-ul '|| param_id_marfa||'.');
+        raise ;
     when err_client then
-        dbms_output.PUT_LINE('Mai intai introduceti in baza de date clientul cu ID-ul ' || param_id_client);
-        raise;
+        dbms_output.PUT_LINE('Mai intai introduceti in baza de date clientul cu ID-ul ' || param_id_client||'.');
+        raise ;
     end verificare_client_marfa;
 end rezervare_transport;
 /

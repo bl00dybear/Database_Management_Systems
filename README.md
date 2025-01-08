@@ -108,4 +108,8 @@ Definitia triggerului este aici: [`exercitiul_12.sql`](exercitiul_12.sql).
 ![alt text](images/13.3.png)
 ![alt text](images/13.4.png)
 
+Utilizarea package-ului:
+![alt text](images/13.5.png)
+
+
 Definitia package-ului este aici: [`exercitiul_13.sql`](exercitiul_13.sql).
