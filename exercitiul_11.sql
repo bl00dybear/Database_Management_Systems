@@ -1,5 +1,5 @@
-create or replace trigger trg_inserare_transport
-before insert on transporturi
+create or replace trigger trg_inserare_updatare_transp
+before insert or update on transporturi
 for each row
 declare
     var_nr_clienti number;

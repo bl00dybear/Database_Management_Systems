@@ -1,22 +1,20 @@
-create or replace type sofer_type as object (
-    id_sofer number,
-    id_firma number,
-    nume varchar2(40),
-    data_angajare date,
-    nr_transporturi number
-);
-/
+type arr_soferi as table of sofer_type;
 
-create or replace type arr_soferi as table of sofer_type;
-/
-
-create or replace type sofer_camion as object (
-    id_sofer number,
-    id_camion number
-);
-/
 
 create or replace package rezervare_transport as
+    type sofer_type as object (
+        id_sofer number,
+        id_firma number,
+        nume varchar2(40),
+        data_angajare date,
+        nr_transporturi number
+    );
+    
+
+    type sofer_camion as object (
+        id_sofer number,
+        id_camion number
+    );
     function cautare_soferi return arr_soferi;
 
     function cautare_camion_sofer(
