@@ -1,5 +1,4 @@
-type arr_soferi as table of sofer_type;
-
+create or replace type arr_soferi as table of sofer_type;
 
 create or replace package rezervare_transport as
     type sofer_type as object (
